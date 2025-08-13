@@ -9,9 +9,7 @@ alert(`
    - Angin 💨
    - Petir ⚡
 
-2. Komputer juga memilih elemen secara acak.
-
-3. Hasil pertandingan:
+2. Hasil pertandingan:
    - SERI → Elemen sama.
    - MENANG jika:
      • Api 🔥 mengalahkan Angin 💨
@@ -20,13 +18,6 @@ alert(`
      • Angin 💨 mengalahkan Tanah ⛰️
      • Petir ⚡ mengalahkan Angin 💨
    - Selain itu → KALAH.
-
-4. Setelah memilih, komputer akan memutar animasi elemen selama 1 detik sebelum menampilkan hasil.
-
-5. Efek suara:
-   - Efek klik saat memilih.
-   - Background music otomatis nyala saat game dibuka
-     (atau setelah klik pertama jika browser memblokir autoplay).
 
 🎮 Selamat bermain!
 `);
@@ -111,3 +102,4 @@ pilihan.forEach(function (pilih) {
         },1010);
    });
 });
+
